@@ -5,6 +5,7 @@ body {
 }
 
 input[type="text"]{
+  background: blue;
   border: 0px solid #eee;
   border-bottom: 1px solid #eee;
 }
