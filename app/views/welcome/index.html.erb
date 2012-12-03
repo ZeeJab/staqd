@@ -1,1 +1,5 @@
-index.html.erb
+<%= form_tag '/welcome', :remote => true %>
+	<%= text_field_tag 'color', :id => 'color' %>
+	<%= button_tag 'Push', :id => 'push' %>
+	<%= button_tag 'Pull', :id => 'pull' %>
+<% end %>
