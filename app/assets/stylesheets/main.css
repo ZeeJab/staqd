@@ -1,11 +1,33 @@
 body {
   background: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/debut_light.png);
+  color: #555;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 36px;
 }
 
+.container {
+  margin: auto;
+  text-align: center;
+  width: 960px;
+}
+
+input {
+  font-size: 24px;
+}
+
 input[type="text"]{
-  background: blue;
-  border: 0px solid #eee;
-  border-bottom: 1px solid #eee;
+  border: 0px solid #111;
+  border-bottom: 2px solid #aaa;
+  color: #aaa;
+}
+
+button[type="submit"]{
+  background-color: #aaa;
+  color: #fff;
+  font-size: 20px;
+}
+
+.color-box {
+  margin: 10px;
+  width: 940px;
 }
