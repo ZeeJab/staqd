@@ -1,4 +1,3 @@
-
 class Stack
   def initialize
     @data = []

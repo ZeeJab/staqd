@@ -1,4 +1,8 @@
 Staqd::Application.routes.draw do
+
+  post '/color' => "welcome#color"
+  
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

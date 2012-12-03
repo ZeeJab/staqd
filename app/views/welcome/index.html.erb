@@ -1,5 +1,7 @@
-<%= form_tag '/welcome', :remote => true do %>
+
+<%= form_tag '/color', :remote => true do %>
+	
 	<%= text_field_tag 'color', '', :id => 'color' %>
-	<%= button_tag 'Push', :id => 'push' %>
-	<%= button_tag 'Pull', :id => 'pull' %>
+	<%= submit_tag 'push', :id => 'push' %>
+	<%= submit_tag 'pop', :id => 'pop' %>
 <% end %>
