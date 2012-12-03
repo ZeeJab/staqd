@@ -1,5 +1,4 @@
-class WelcomeController < ActionController::Base
-  
+class WelcomeController < ApplicationController
 
 
   def index
@@ -21,9 +20,5 @@ class WelcomeController < ActionController::Base
   	@stack.push(color)
 
   end
-
-
- 
-
 
 end
